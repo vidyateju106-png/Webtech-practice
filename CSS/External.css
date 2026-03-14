@@ -1,0 +1,24 @@
+h1{
+    text-align: center;
+    color: blue;
+    background-color: orange;
+}
+
+#hrd{
+    color: purple;
+    text-align: center;
+}
+
+.hexa{
+    color: #370964;
+    background-color: rgb(118, 239, 118);
+}
+
+#deci{
+    color: rgb(198, 12, 12);
+    background-color: rgb(118, 239, 118);
+}
+
+*{
+    text-align: center;
+}

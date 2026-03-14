@@ -1,0 +1,88 @@
+.sqr{
+    border: solid 2px palevioletred;
+    height: 250px;
+    width: 250px;
+    background-color: palevioletred;
+}
+
+.rec{
+    border: solid 2px skyblue;
+    height: 250px;
+    width: 400px;
+    background-color: skyblue;
+}
+
+.cir{
+    border: solid 2px red;
+    height: 250px;
+    width: 250px;
+    background-color: red;
+    border-radius: 50%;
+}
+
+.ovl{
+    border: solid 2px purple;
+    height: 150px;
+    width: 350px;
+    background-color: purple;
+    border-radius: 50%;
+}
+
+.lef{
+    border:solid 2px green;
+    height: 350px;
+    width: 250px;
+    background-color: green;
+    border-top-left-radius: 100%;
+    border-bottom-right-radius: 100%;
+}
+
+.cub{
+    border: solid 2px white;
+    height: 100px;
+    width: 100px;
+    border-top: solid 100px red;
+    border-bottom: solid 100px blue;
+    border-left: solid 100px yellow;
+    border-right: solid 100px green;  
+}
+
+.cht{
+    border: solid 2px teal;
+    height: 250px;
+    width: 250px;
+    background-color: teal;
+    border-radius: 0% 100% 100% 100%;
+
+}
+
+.trf{
+    height: 250px;
+    width: 250px;
+    display: block;
+    margin: auto;
+
+    transform: scale(1.2) skew(10deg) rotate(0deg) rotateX(50deg) rotateY(50deg);
+}
+
+.fil{
+    height: 250px;
+    width: 250px;
+    display: block;
+    filter: brightness(50%) drop-shadow(10px 10px 2px grey) contrast(150%) saturate(500%) opacity(1.2);
+    /*filter: contrast(50%);
+    /*filter: brightness(150%);
+    /*filter: drop-shadow(10px 10px 10px grey);
+    /* box-shadow: 10px 10px 5px grey; */
+    }
+
+.tri{
+    height: 0;
+    width: 0;
+    border-right: solid 150px white;
+    border-left:solid 150px white;
+    border-bottom: 350px solid  brown;
+}
+
+
+

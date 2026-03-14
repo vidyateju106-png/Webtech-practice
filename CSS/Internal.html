@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Internal CSS</title>
+    <style>
+        /* Selector */
+        h1{
+            color:red;
+        }
+        #sel{
+            color: blue;
+        }
+        .abc{
+            color: green;
+        }
+        h1,h2{
+            color: pink;
+        }
+        *{
+            text-align: center;
+            
+        }
+        input[type="password"]{
+            cursor: not-allowed;
+        }
+        body{
+            border: solid;
+        }
+
+    
+    </style>
+</head>
+<body>
+    <h1>
+        Selector
+    </h1>
+
+
+    <h2 id="sel">
+        ID selector:
+    </h2>
+    <p id="sel">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque iure molestias qui et quod dolor ratione itaque ducimus esse, placeat repudiandae voluptate cumque omnis similique aut error? Quasi possimus alias necessitatibus in ipsa dolores velit totam perspiciatis, adipisci neque eveniet, at voluptate, cum blanditiis molestiae reiciendis labore quisquam! Explicabo, assumenda.
+    </p>
+
+    <h1 class="abc">
+        Class selector
+    </h1>
+    <p class="abc">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat sequi voluptas consequatur, suscipit rem deserunt architecto exercitationem, similique impedit cupiditate placeat adipisci vero dolorum. Provident reprehenderit totam, culpa fugit repudiandae nihil accusamus soluta similique dignissimos voluptates dolore dolorem reiciendis, impedit non quam ipsum placeat laborum, hic magnam sequi? Nisi, tenetur.</p>
+
+    <h1>
+        Group selector
+    </h1>
+
+    <h1>
+        Universal selector
+    </h1>
+
+    <h1>
+        Attribute selector
+    </h1>
+    <input type="Name" placeholder="Enter name">
+    <input type="email" placeholder="Enter Email">
+    <input type="password" placeholder="Enter Password" disabled>
+    <br><br><br><br><br>
+</body>
+</html>

@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Table</title>
+</head>
+<body>
+    <h1 align="center">Application Form</h1>
+        <table  align="center" rules="all" height="100" width="900" bordercolor="black">
+            <form>
+            <tr height="50" width="25">
+                <th>
+                        <label >Name:</label>
+                </th>
+                <td>&nbsp;
+                        <input type="text" name="fname" placeholder="First Name">
+                        <input type="text" name="lname" placeholder="Last Name">
+                </td>
+            </tr>
+            <tr height="50" width="25" >
+                <th>
+                        <lable>Email:</lable>
+                </th>
+                <td>&nbsp;
+                    <input type="email" name="mail" placeholder="Email Address">
+                </td>
+            </tr>
+            <tr height="50" width="25" >
+                <th>
+                        <label>Password:</label>
+                </th>
+                <td>&nbsp;
+                    <input type="password" name="password" placeholder="Password">
+                </td>
+            </tr>
+            <tr height="50" width="25">
+                <th>
+                        <label>Date and time:</label>
+                </th>
+                <td>&nbsp;
+                        <input type="date" name="Date">
+                        <input type="time" name="time">
+                        <input type="datetime-local" name="datetime">
+                        <input type="month" name="month">
+                        <input type="week" name="week">
+                </td>
+            </tr>
+            <tr height="50" width="25">
+                <th>
+                    <label>Contact details:</label>
+                </th>
+                <td>&nbsp;
+                <input type="tel" name="phone" placeholder="Phone number" pattern="[6-9]{1}[0-9]{9}">
+                <input type="url" name="urls" placeholder="Website address">
+                <input type="search" name="search" placeholder="Search here">
+                </td>
+            </tr>
+            <tr height="50" width="25" >
+                <th>
+                    <label>Age:</label>
+                </th>
+                <td>&nbsp;
+                    <input type="number" name="age" placeholder="Age" min="0" max="99">
+                    <input type="range" name="range" min="0" max="10">
+                    <input type="color" name="color">
+                </td>
+            </tr>
+            <tr height="50" width="25">
+            <th>
+                <label>Document:</label>
+            </th>
+            <td>&nbsp;
+                <input type="file" name="File">
+            </td>
+            </tr>
+            <tr height="50" width="25">
+                <th>
+                    <label>Languages:</label>
+                </th>
+                <td>&nbsp;
+                    <label for="e">English</label>
+                    <input type="checkbox" name="lang" value="eng" id="e">
+                    <label for="k">Kannada</label>
+                    <input type="checkbox" name="lang" value="kan" id="k">
+                    <label for="h">Hindi</label>
+                    <input type="checkbox" name="lang" value="hin" id="e">
+                </td>
+            </tr>
+            <tr height="50" width="25">
+                <th>
+                    <label>Location:</label>
+                </th>
+                <td>&nbsp;
+                    <select name="Place">
+                        <option value="bng">Banglore</option>
+                        <option value="tmk">Tumkur</option>
+                        <option value="mys">Mysore</option>
+                        <option value="ker">Kerala</option>
+                    </select>
+                </td>
+            </tr>
+            <tr height="50">
+                <th>
+                    <label>Gender:</label>
+                </th>
+                <td>&nbsp;
+                    <label for="m">Male</label>
+                    <input type="radio" name="Gender" value="Male" id="m">
+                    <label for="f">Female</label>
+                    <input type="radio" name="Gender" value="Female" id="f">
+                    <label for="o">Others</label>
+                    <input type="radio" name="Gender" value="Others" id="o">
+                </td>
+            </tr>
+            <tr height="100">
+                <th>
+                    <label>Feedback:</label>
+                </th>
+                <td>&nbsp;
+                    <textarea name="cmt" rows="5" cols="50" placeholder="Comment here"></textarea>                </td>
+            </tr>
+            <tr height="50" width="25" >
+                <th colspan="2">
+                <input type="Reset">
+                <input type="submit">   
+                </th>
+            </tr>
+            </form>  
+        </table>
+        <br>
+        <br>
+          
+</body>
+</html>

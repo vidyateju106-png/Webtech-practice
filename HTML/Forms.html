@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo forms</title>
+</head>
+<body>
+    <h1>Demo Forms</h1>
+    <form method="post" action="./Form table.html" target="_blank" >
+        <fieldset>
+        <legend align="center">Login page</legend>
+        <lable>User Name:*</lable>
+        <input type="text" name="fname" placeholder="First Name" required>
+        <input type="text" name="lname" placeholder="Last Name" required>
+    
+        <br><br>
+
+        <lable>Email:</lable>
+        <input type="email" name="mail" placeholder="Email address">
+
+        <input type="password" name="password" placeholder="Password">
+        </fieldset>
+        <br><br>
+
+        <label>Date and time:</label>
+        <input type="date" name="Date">
+        <input type="time" name="time">
+        <input type="datetime-local" name="datetime">
+        <input type="month" name="month">
+        <input type="week" name="week">
+        <br><br>
+
+        <label>Contact details:</label>
+        <input type="tel" name="phone" placeholder="Phone number" pattern="[6-9]{1}[0-9]{9}">
+        <input type="url" name="urls" placeholder="Website address">
+        <input type="search" name="search" placeholder="Search here">
+        <br><br>
+
+        <label>Age:</label>
+        <input type="number" name="age" placeholder="age" min="0" max="99">
+        <input type="range" name="range" min="0" max="50">
+        <br>
+        <br>
+        <input type="color" name="Color" placeholder="colours">
+        <input type="file" name="file">
+        <br><br>
+
+        <label>Gender:</label>
+        <label for="m">Male</label>
+        <input type="radio" name="Gender" value="Male" id="m" checked>
+        <label for="f">Female</label>
+        <input type="radio" name="Gender" value="Female" id="f">
+        <label for="o">Others</label>
+        <input type="radio" name="Gender" value="Others" id="o">
+        <br><br>
+
+        <label>Languages:</label>
+        <label for="e">English</label>
+        <input type="checkbox" name="lang" value="eng" id="e">
+        <label for="k">Kannada</label>
+        <input type="checkbox" name="lang" value="kan" id="k">
+        <label for="h">Hindi</label>
+        <input type="checkbox" name="lang" value="hin" id="h" disabled>
+        <br><br>
+
+        <label>Palces:</label>
+        <select name="place">
+            <option value="bng">Banglore</option>
+            <option value="tmk" selected>Tumkur</option>
+            <option value="mys">Mysore</option>
+            <option value="ker">Kerala</option>
+        </select>
+        <br><br>
+
+        <label>Feedback:</label>
+        <textarea name="cmt" rows="5" cols="50" placeholder="Comment here"></textarea>
+        <br><br>
+        <input type="reset">
+        <input type="submit" value="Register">
+        <br><br><br><br><br><br><br><br><br><br>
+
+        
+
+
+
+
+
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+    </form>
+</body>
+</html>

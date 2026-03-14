@@ -1,0 +1,29 @@
+.Box{
+    border: solid 2px blue;
+    height: 150px;
+    width: 250px;
+    background-color: palevioletred;
+    margin-left: 100px;
+    margin-right: 150px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.Box1{
+    border: solid 2px red;
+    height: 150px;
+    width: 250px;
+    background-color: purple;
+    margin: auto;
+}
+
+.pro{
+    border: solid 2px black;
+    height: 150px;
+    width: 150px;
+    background-color: yellow;
+    padding-left:  20px;
+    padding-top: 50px;
+    margin: auto;
+
+}

@@ -1,0 +1,38 @@
+h1{
+    text-align: center;
+    text-shadow: 10px 10px 5px skyblue;
+    font-size: 50px;
+    font-style: italic;
+    font-family: sans-serif;
+    font-variant: small-caps;
+    font-weight: bold;
+    color: rgb(15, 8, 157);
+}
+
+
+
+.para1{
+    width: 50%;
+    height: 200px;
+    margin: auto;
+    text-align: justify;
+    text-indent: 100px;
+    text-transform: capitalize;
+    text-decoration: dashed;
+    text-decoration-line: underline;
+    text-decoration-color:goldenrod;
+    text-decoration-style: solid;
+    color: green;
+    font-weight: bold;
+    font-style: italic;
+
+    border-style: solid;
+    border-width: 10px;
+    border-color:rgb(202, 54, 104);
+    /* overflow:auto; */
+    box-shadow: 10px 10px 5px pink;
+    overflow: auto;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+}
