@@ -1,0 +1,120 @@
+*{
+    margin: 0; padding: 0;
+}
+button{
+    display: block;
+    margin: 10vh auto;
+    padding: 2vh 0;
+    width: 30%;
+    font-size: 20px;
+    font-weight: bold;
+    color: blue;
+    border: solid 2px blue;
+}
+button:hover{
+    background: blue;
+    color: white;
+}
+button:active{
+    background: green;
+    color: white;
+    transform: scale(.8);
+}
+a{
+    display: block;
+    margin: 10vh auto;
+    padding: 2vh 0;
+    width: 30%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: blue;
+    text-align: center;
+    border: solid 2px blue;
+    text-decoration: none;
+}
+a:hover{
+    background-color: blue;
+    color: white;
+}
+a:active{
+    background: green;
+    color:white;
+    transform: scale(.8);
+}
+.box{
+    border: solid 2px black;
+    height: 200px;
+    width: 200px;
+    background: red;
+    margin: 10vh auto;
+    transition: all .5s;
+}
+.box:hover{
+    border-radius: 50%;
+}
+.box:active{
+    transform: scale(.8);
+}
+.textbox{
+    width: 50%;
+    height: 30vh;
+    background: skyblue;
+    overflow: hidden;
+    box-shadow: inset 0 0 3px black;
+    opacity: .5;
+    transition: all .3s;
+    margin: 0 25vw;
+    padding: 0 2vw;
+}
+.textbox:hover{
+    transform: scale(1.2);
+    overflow: auto;
+    opacity: 1;
+    box-shadow: 0 0 3px black;
+}
+p{
+    text-align: justify;
+}
+p::first-letter{
+    color: purple;
+    font-size: 30px;
+    font-style: italic;
+}
+p::first-line{
+    color: purple;
+    font-weight: bold;
+}
+p::selection{
+    color: yellow;
+    background: green;
+}
+ul{
+    list-style-position: inside;
+    margin-left: 5vw;
+    list-style-image: linear-gradient(red,yellow,green);
+       font-size: 50px;
+}
+li:nth-child(odd)
+{
+    background: skyblue;
+ 
+}
+li::after{
+    content: "*";
+}
+table,td,th{
+    border: solid 1px black;
+}
+table{
+    margin:auto;
+    height: 200px;
+    width: 500px;
+    border-collapse: collapse;
+}
+td{
+    text-align: center;
+    font-weight: bold;
+}
+tr :nth-child(odd){
+    background: greenyellow;
+}
