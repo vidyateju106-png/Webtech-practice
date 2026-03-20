@@ -60,3 +60,7 @@ footer{
     grid-area: footer;
 }
 
+/* responsive web design - media query*/
+@media (min-width:1px) and (max-width:576px){
+/* select the previous design and modify */
+}
